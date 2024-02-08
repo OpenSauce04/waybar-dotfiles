@@ -108,17 +108,11 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
-}
-
-#battery {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+    background-color: rgba(38, 166, 61, 0.5);
 }
 
 @keyframes blink {
